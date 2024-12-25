@@ -13,10 +13,6 @@ java {
 	}
 }
 
-jar{
-	destinationDirectory.set(file("$rootDir"))
-}
-
 repositories {
 	mavenCentral()
 }

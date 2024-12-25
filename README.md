@@ -16,7 +16,7 @@ It is necessary to have the java development kit(JDK) 17 version.
 if you run successfully the Wallet App, you can use the postman file inside postman root folder and importing it as a collection in the Postman app or related app.
 
 
-#Design choices
+# Design choices
 
 The implementation was initialized using Spring Initializer and Java 17 and gradle as main Build tool. Spring framework and spring boot libs (web, validation data) was used to accelerate the development,  and Lombok lib too. I use H2 (hibernate) to define in-memory relational database, just for test the correct functionality. 
 In a correct development we must use a separated Database like PosgreSQL or SQLServer, for example.
